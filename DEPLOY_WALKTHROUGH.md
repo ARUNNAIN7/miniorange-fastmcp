@@ -53,12 +53,38 @@ To use this server with Claude Desktop, add the following configuration to your 
 
 Make sure to replace `"your_actual_api_key_here"` with your valid Mistral API key if it's not set in your system environment variables.
 
-## Testing with Inspector
+## 
+## Deploying to FastMCP Cloud
 
-You can also use the MCP Inspector to test the tools interactively:
+To deploy your server to the FastMCP cloud (managed hosting), run:
 
 ```bash
-npx @modelcontextprotocol/inspector python fastmcp_app.py
+fastmcp deploy fasthcp_app.py
 ```
 
-This will open a web interface where you can browse and call the available tools (`get_miniorange_guide`, `generate_walkthrough`, `search_docs`).
+This command will prompt you to authenticate and will then deploy your server, providing you with a public URL (e.g., `https://your-app.fastmcp.app/mcp`).
+
+## Connecting to Cloud Deployment
+
+Once deployed, you can connect to your server using the URL.
+
+### Update `claude_desktop_config.json` (or other MCP client config)
+
+For cloud deployments, you don't run a local Python command. Instead, you can use `npx` to bridge the SSE connection to stdio:
+
+```json
+{
+  "mcpServers": {
+    "miniOrange": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://miniOrange-mcp.fastmcp.app/mcp"
+      ]
+    }
+  }
+}
+```
+
+Replace `https://miniOrange-mcp.fastmcp.app/mcp` with your actual deployment URL.

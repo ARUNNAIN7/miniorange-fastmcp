@@ -46,33 +46,44 @@ def get_miniorange_guide(service: str) -> str:
     return "Service not found"
 
 @mcp.tool()
+def list_plugins() -> str:
+    """List all available plugins/services"""
+    plugin_list = []
+    for guide in guides:
+        plugin_list.append({
+            "service": guide.get("service"),
+            "auth_type": guide.get("auth_type")
+        })
+    return json.dumps(plugin_list, indent=2)
+
+@mcp.tool()
+def get_plugin_details(service: str) -> str:
+    """Get detailed information for a specific plugin"""
+    guide = get_guide_data(service)
+    if guide:
+        # Construct the response with specific fields
+        details = {
+            "service": guide.get("service"),
+            "auth_type": guide.get("auth_type"),
+            "requires": guide.get("requires", []),
+            "description": guide.get("description", "No description available")
+        }
+        return json.dumps(details, indent=2)
+    return "Service not found"
+
+@mcp.tool()
 def generate_walkthrough(service: str) -> str:
-    """Generate a step-by-step walkthrough for a miniOrange service"""
+    """Generate a structured walkthrough for a miniOrange service"""
     for guide in guides:
         if service.lower() in guide["service"].lower():
-            steps = "\n".join(
-                [f"{i+1}. {step}" for i, step in enumerate(guide["setup_steps"])]
-            )
-            env_vars = json.dumps(guide['env_template'], indent=2)
-            return f"""
-### Setup Walkthrough for {guide['service']} ({guide['auth_type']})
-
-**Prerequisites:**
-You will need: {', '.join(guide['requires'])}
-
-**Steps:**
-{steps}
-
-**Environment Configuration:**
-Create a `.env` file in your project and add the following:
-
-```env
-{env_vars}
-```
-
-**Next Steps:**
-Restart your application to load the new environment variables.
-"""
+            # Return structured JSON instead of formatted text
+            walkthrough_data = {
+                "service": guide.get("service"),
+                "auth_type": guide.get("auth_type"),
+                "steps": guide.get("setup_steps", []),
+                "env_template": guide.get("env_template", {})
+            }
+            return json.dumps(walkthrough_data, indent=2)
     return "Service not found"
 
 @mcp.tool()
