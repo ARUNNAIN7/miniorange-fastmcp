@@ -1,0 +1,422 @@
+[
+  {
+    "url": "https://developers.miniorange.com/docs/aspnet",
+    "path": "/docs/aspnet",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/aspnet",
+    "path": "/docs/aspnet",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/atlassian",
+    "path": "/docs/atlassian",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/atlassian",
+    "path": "/docs/atlassian",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/drupal",
+    "path": "/docs/drupal",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/drupal",
+    "path": "/docs/drupal",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/idp",
+    "path": "/docs/idp",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/idp",
+    "path": "/docs/idp",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/joomla",
+    "path": "/docs/joomla",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/joomla",
+    "path": "/docs/joomla",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/laravel",
+    "path": "/docs/laravel",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/laravel",
+    "path": "/docs/laravel",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/microsoft-office365",
+    "path": "/docs/microsoft-office365",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/microsoft-office365",
+    "path": "/docs/microsoft-office365",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/microsoft-office365#",
+    "path": "/docs/microsoft-office365",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/microsoft-office365#",
+    "path": "/docs/microsoft-office365",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/rest-api-authentication",
+    "path": "/docs/rest-api-authentication",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/rest-api-authentication",
+    "path": "/docs/rest-api-authentication",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/rest-api-authentication#",
+    "path": "/docs/rest-api-authentication",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/rest-api-authentication#",
+    "path": "/docs/rest-api-authentication",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/reverse-proxy",
+    "path": "/docs/reverse-proxy",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/reverse-proxy",
+    "path": "/docs/reverse-proxy",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security",
+    "path": "/docs/security/wordpress/wp-security",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security",
+    "path": "/docs/security/wordpress/wp-security",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security#",
+    "path": "/docs/security/wordpress/wp-security",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security#",
+    "path": "/docs/security/wordpress/wp-security",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/Shortcodes",
+    "path": "/docs/security/wordpress/wp-security/Shortcodes",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/custom-redirect-login-url",
+    "path": "/docs/security/wordpress/wp-security/custom-redirect-login-url",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/enable-two-factor-based-on-roles",
+    "path": "/docs/security/wordpress/wp-security/enable-two-factor-based-on-roles",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/features",
+    "path": "/docs/security/wordpress/wp-security/features",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/features",
+    "path": "/docs/security/wordpress/wp-security/features",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/features#",
+    "path": "/docs/security/wordpress/wp-security/features",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/features#",
+    "path": "/docs/security/wordpress/wp-security/features",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/google-authenticator",
+    "path": "/docs/security/wordpress/wp-security/google-authenticator",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/how-to-change-name-in-google-authenicator-app",
+    "path": "/docs/security/wordpress/wp-security/how-to-change-name-in-google-authenicator-app",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/mobile-support",
+    "path": "/docs/security/wordpress/wp-security/mobile-support",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/otp-over-telegram",
+    "path": "/docs/security/wordpress/wp-security/otp-over-telegram",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/otp-over-whatsapp",
+    "path": "/docs/security/wordpress/wp-security/otp-over-whatsapp",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/remove-security-question-kba-setup",
+    "path": "/docs/security/wordpress/wp-security/remove-security-question-kba-setup",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/specific-set-authentication-methods-based-role",
+    "path": "/docs/security/wordpress/wp-security/specific-set-authentication-methods-based-role",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-QR-code",
+    "path": "/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-QR-code",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-QR-code",
+    "path": "/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-QR-code",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-push-notification",
+    "path": "/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-push-notification",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-soft-token",
+    "path": "/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-miniorange-soft-token",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-otp-over-sms",
+    "path": "/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-otp-over-sms",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-security-question",
+    "path": "/docs/security/wordpress/wp-security/step-by-setup-guide-to-set-up-security-question",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/two-factor-authentication",
+    "path": "/docs/security/wordpress/wp-security/two-factor-authentication",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/security/wordpress/wp-security/wordpress-smart-contracts-web3",
+    "path": "/docs/security/wordpress/wp-security/wordpress-smart-contracts-web3",
+    "module": "security"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/shopify",
+    "path": "/docs/shopify",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/shopify",
+    "path": "/docs/shopify",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/shopify#",
+    "path": "/docs/shopify",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/shopify#",
+    "path": "/docs/shopify",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/woocommerce-product-sync",
+    "path": "/docs/woocommerce-product-sync",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/woocommerce-product-sync",
+    "path": "/docs/woocommerce-product-sync",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/woocommerce-product-sync#",
+    "path": "/docs/woocommerce-product-sync",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/woocommerce-product-sync#",
+    "path": "/docs/woocommerce-product-sync",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-firebase",
+    "path": "/docs/wordpress-firebase",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-firebase",
+    "path": "/docs/wordpress-firebase",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-firebase#",
+    "path": "/docs/wordpress-firebase",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-firebase#",
+    "path": "/docs/wordpress-firebase",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-web3",
+    "path": "/docs/wordpress-web3",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-web3",
+    "path": "/docs/wordpress-web3",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-web3#",
+    "path": "/docs/wordpress-web3",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wordpress-web3#",
+    "path": "/docs/wordpress-web3",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-client",
+    "path": "/docs/wp-oauth-client",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-client",
+    "path": "/docs/wp-oauth-client",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-client#",
+    "path": "/docs/wp-oauth-client",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-client#",
+    "path": "/docs/wp-oauth-client",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-server",
+    "path": "/docs/wp-oauth-server",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-server",
+    "path": "/docs/wp-oauth-server",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-server#",
+    "path": "/docs/wp-oauth-server",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-oauth-server#",
+    "path": "/docs/wp-oauth-server",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-salesforce",
+    "path": "/docs/wp-salesforce",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-salesforce",
+    "path": "/docs/wp-salesforce",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-salesforce#",
+    "path": "/docs/wp-salesforce",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-salesforce#",
+    "path": "/docs/wp-salesforce",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-saml",
+    "path": "/docs/wp-saml",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-saml",
+    "path": "/docs/wp-saml",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-saml#",
+    "path": "/docs/wp-saml",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-saml#",
+    "path": "/docs/wp-saml",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-security",
+    "path": "/docs/wp-security",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-security",
+    "path": "/docs/wp-security",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-security#",
+    "path": "/docs/wp-security",
+    "module": "general"
+  },
+  {
+    "url": "https://developers.miniorange.com/docs/wp-security#",
+    "path": "/docs/wp-security",
+    "module": "general"
+  }
+]

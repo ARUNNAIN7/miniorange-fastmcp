@@ -1,0 +1,17 @@
+[
+  {
+    "service": "OAuth",
+    "auth_type": "Bearer Token",
+    "requires": ["client_id", "client_secret"],
+    "setup_steps": [
+      "Login to miniOrange Admin Console",
+      "Navigate to Apps → OAuth",
+      "Create new OAuth Application",
+      "Copy Client ID and Client Secret"
+    ],
+    "env_template": {
+      "MINIORANGE_CLIENT_ID": "your_client_id_here",
+      "MINIORANGE_CLIENT_SECRET": "your_client_secret_here"
+    }
+  }
+]
