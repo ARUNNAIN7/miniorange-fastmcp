@@ -88,8 +88,12 @@ def generate_walkthrough(service: str) -> str:
     return "Service not found"
 
 @mcp.tool()
-def search_docs(query: str) -> str:
-    """Intelligent search of miniOrange documentation using Mistral AI."""
+def search_docs(query: str, scan_url: str = None) -> str:
+    """Intelligent search of miniOrange documentation. Optionally scan a URL first."""
+    if scan_url:
+        scan_result = _scan_docs(scan_url)
+        print(f"Pre-search scan: {scan_result}")
+
     query_lower = query.lower()
     terms = [t for t in query_lower.split() if len(t) > 1] # Filter only 1-char words, keep 2-char like 'id', 'ip'
     
@@ -153,6 +157,47 @@ def search_docs(query: str) -> str:
     except Exception as e:
         print(f"Mistral Error: {e}")
         return f"Error analyzing documents with AI: {e}"
+
+def _scan_docs(url: str, depth: int = 1) -> str:
+    global docs
+    from recursive_crawler import Crawler
+
+    try:
+        crawler = Crawler()
+        crawler.crawl(url, max_depth=depth)
+        
+        new_data = crawler.get_data()
+        
+        docs_map = {d['url']: d for d in docs}
+        
+        added_count = 0
+        updated_count = 0
+        
+        for item in new_data:
+            if item['url'] in docs_map:
+                docs_map[item['url']] = item
+                updated_count += 1
+            else:
+                docs_map[item['url']] = item
+                added_count += 1
+        
+        docs = list(docs_map.values())
+        
+        with open(DOCS_FILE, "w") as f:
+            json.dump(docs, f, indent=2)
+            
+        return f"Successfully scanned {url}. Added {added_count} pages, updated {updated_count} pages."
+
+    except Exception as e:
+        return f"Error scanning documentation: {e}"
+
+@mcp.tool()
+def scan_documentation(url: str, depth: int = 1) -> str:
+    """Scan a documentation page (and optionally children) in real-time and update the knowledge base."""
+    return _scan_docs(url, depth)
+
+
+
 
 if __name__ == "__main__":
     mcp.run()
