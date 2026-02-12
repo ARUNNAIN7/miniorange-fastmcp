@@ -49,12 +49,13 @@ def get_miniorange_guide(service: str) -> str:
 def list_plugins() -> str:
     """List all available plugins/services"""
     plugin_list = []
-    for guide in guides:
-        plugin_list.append({
-            "service": guide.get("service"),
-            "auth_type": guide.get("auth_type")
-        })
-    return json.dumps(plugin_list, indent=2)
+    seen_titles = set()
+    for doc in docs:
+        title = doc.get("title")
+        if title and title not in seen_titles:
+            plugin_list.append(title)
+            seen_titles.add(title)
+    return json.dumps(sorted(plugin_list), indent=2)
 
 @mcp.tool()
 def get_plugin_details(service: str) -> str:
